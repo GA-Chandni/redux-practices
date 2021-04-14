@@ -43,9 +43,8 @@ const Home = (props) => {
   ];
   //items add to cart
   const handleButtonOnSubmit = () => {
-    //how to pass dynamic values in the action
+    //how to pass static values in the action
     const datails = props.addToCartHandler({ price: 20000, name: "I-Phone" });
-    // console.log("datails", datails);
   };
 
   //items remove to cart
