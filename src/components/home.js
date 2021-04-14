@@ -44,7 +44,7 @@ const Home = (props) => {
   //items add to cart
   const handleButtonOnSubmit = () => {
     //how to pass static values in the action
-    const datails = props.addToCartHandler({ price: 20000, name: "I-Phone" });
+     props.addToCartHandler({ price: 20000, name: "I-Phone" });
   };
 
   //items remove to cart
@@ -57,7 +57,7 @@ const Home = (props) => {
 
   return (
     <div className='main'>
-      <h1>Home Component</h1>
+      <h1>Product List</h1>
       {cats.map((cats) => (
         <div className="cart-wrapper">
           <div>
